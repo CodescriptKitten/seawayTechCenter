@@ -37,6 +37,22 @@ table {
 
 }
 
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+img {
+
+}
+
 a:link {
 
 }
@@ -51,6 +67,24 @@ a:active {
 
 a:visited {
 
+}
+
+nav {
+    min-height: 2em;
+    display: inline-block;
+}
+
+nav img {
+    height: 2em;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    text-align: center;
 }
 
 nav ul li a:link {
@@ -68,3 +102,5 @@ nav ul li a:active {
 nav ul li a:visited {
 
 }
+
+
