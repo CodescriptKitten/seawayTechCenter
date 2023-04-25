@@ -34,19 +34,25 @@ p {
 }
 
 blockquote {
-    font-size: 3em;
+    font-size: 4em;
+    padding: 2em;
+}
+
+form {
+    border: #00568c;
 }
 
 table {
-
+    margin: 1em;
 }
 
 header {
-
+    min-height: 400px;
 }
 
 main {
     margin: 2em;
+    color: #cccccc;
 }
 
 footer {
@@ -58,19 +64,19 @@ img {
 }
 
 a:link {
-
+    color: #00568c
 }
 
 a:hover {
-
+    color: #00568c99;
 }
 
 a:active {
-
+    color: #008e6699;
 }
 
 a:visited {
-
+    color: #008e66;
 }
 
 nav {
@@ -99,20 +105,34 @@ footer {
     margin: 0 auto;
 }
 
-nav ul li a:link {
+footer p {
+    font-size: .8em;
+}
 
+.finePrint {
+    font-size: .5em;
+}
+
+nav ul li a:link {
+    color: #00568c;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-
+    color: #cccccc;
+    background-color:#008e66;
+    text-decoration: none;
 }
 
 nav ul li a:active {
-
+    color:#00568c;
+    background-color: #008e6699;
+    text-decoration: none;
 }
 
 nav ul li a:visited {
-
+    color: #008e66;
+    text-decoration: none;
 }
 
 
