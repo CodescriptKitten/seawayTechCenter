@@ -54,12 +54,13 @@ table {
 }
 
 header {
-    min-height: 400px;
+    min-height: 300px;
 }
 
 main {
     margin: 2em;
     background-color: #cccccc;
+    padding: 1em;
 }
 
 footer {
@@ -67,7 +68,8 @@ footer {
 }
 
 img {
-    max-width: 30%;
+    max-width: 90%;
+    padding: 1em;
 }
 
 a:link {
