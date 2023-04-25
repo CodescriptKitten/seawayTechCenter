@@ -31,6 +31,7 @@ h2 {
 
 p {
     font-size: 1.4em;
+    color: #000000;
 }
 
 blockquote {
@@ -39,7 +40,7 @@ blockquote {
 }
 
 form {
-    border: #00568c;
+    border: 1px solid #00568c;
 }
 
 table {
@@ -52,7 +53,7 @@ header {
 
 main {
     margin: 2em;
-    color: #cccccc;
+    background-color: #cccccc;
 }
 
 footer {
@@ -60,7 +61,7 @@ footer {
 }
 
 img {
-    height: 10%;
+    max-width: 30%;
 }
 
 a:link {
