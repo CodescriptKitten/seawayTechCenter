@@ -44,7 +44,9 @@ blockquote {
 }
 
 form {
-    border: 1px solid #00568c;
+    border:solid;
+    border-width: 1px;
+    border-color: #00568c;
 }
 
 table {
@@ -118,6 +120,17 @@ footer p {
 .finePrint {
     font-size: .7em;
 }
+
+.btn {
+    font-size: 1.2em;
+    border: solid;
+    border-width: 1px;
+    border-color: #008e66;
+    color: #008e66;
+    background-color: #00568c;
+}
+
+.
 
 nav ul li a:link {
     color: #00568c;
