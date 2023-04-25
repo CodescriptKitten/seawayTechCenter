@@ -34,7 +34,7 @@ p {
 }
 
 blockquote {
-
+    font-size: 3em;
 }
 
 table {
@@ -75,12 +75,12 @@ a:visited {
 
 nav {
     min-height: 2em;
-    display: inline-block;
 }
 
 nav img {
-    height: 2em;
-    display: inline-block;
+    height: 4em;
+    padding: .4em;
+    float: left;
 }
 
 nav ul {
@@ -89,6 +89,14 @@ nav ul {
 
 nav ul li {
     text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    padding: .5em;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
 }
 
 nav ul li a:link {
