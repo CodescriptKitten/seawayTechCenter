@@ -99,6 +99,11 @@ img {
     padding: 1em;
 }
 
+ul li {
+    font-size: 1.8em;
+    padding: .5em;
+}
+
 a:link {
     color: #00568c
 }
