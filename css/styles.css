@@ -8,8 +8,11 @@
 #00568c99 - Blue Fade
 #008e6699 - Green Fade
 
+font-family: 'Oswald', sans-serif;
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
 
 *, *:after {
     margin: 0;
@@ -19,6 +22,7 @@
 
 body {
     background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -54,23 +58,26 @@ table {
 }
 
 tr{
-
+    padding: .4em;
 }
 
 th {
-
+    font-size: 2em;
 }
 
 td {
-
+    font-size: 1.6em;
 }
 
 input {
-
+    border: solid;
+    border-color: #00568c;
+    border-radius: 3px;
+    color: #000000;
 }
 
 label {
-    
+    color: #008e66;
 }
 
 header {
@@ -88,7 +95,7 @@ footer {
 }
 
 img {
-    max-width: 90%;
+    max-width: 24em;
     padding: 1em;
 }
 
@@ -146,10 +153,23 @@ footer p {
 .btn {
     font-size: 1.2em;
     border: solid;
-    border-width: 1px;
+    border-width: 3px;
     border-color: #008e66;
-    color: #008e66;
+    border-radius: 3px;
+    padding: 0.3em;
+    color: #ffffff;
     background-color: #00568c;
+}
+
+.btn:hover {
+    color: #008e66;
+    border-color: #00568c;
+    background-color: #ffffff;
+}
+
+.btn:active {
+    color: #008e6699;
+    border-color: #00568c99;
 }
 
 nav ul li a:link {
