@@ -70,6 +70,7 @@ td {
 }
 
 input {
+    font-size: 1.3em;
     border: solid;
     border-color: #00568c;
     border-radius: 3px;
