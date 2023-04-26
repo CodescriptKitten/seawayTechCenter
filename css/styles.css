@@ -42,7 +42,7 @@ p {
 
 blockquote {
     text-align: center;
-    font-size: 4em;
+    font-size: 6em;
     padding: 1em;
     color: #00568c;
 }
@@ -62,11 +62,11 @@ tr{
 }
 
 th {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 td {
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 input {
